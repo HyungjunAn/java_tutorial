@@ -5,48 +5,22 @@ public class Helloworld {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Hello world");
-		System.out.println(1+2);
-		System.out.println(1.2+2.3);
-		System.out.println('생');
-		System.out.println("생활코딩");
-
-		// Error
-		//System.out.println('생활코딩');
 		
-		int a;
-		a = 1;
-		System.out.println(a);
+		// Arrary
+		String[] students = {"a", "b", "c"};
 		
-		String b, c;
-		b = "asdf";
-		c = "erwer";
+		// overriding: in inheritance
+		// overloading: different signature(except return type)(signature: method's signature)
 		
-		// Comment: one line
+		// class path '$java -classpath ".;lib" ~~~': 현재폴더 '.'와 하위 폴더 중 'lib'에서 클래스를 찾음
 		
-		/*
-		 * Comment: multi line
-		 */
+		// default		: same pkg
+		// public		: every
+		// protected	: same pkg & base class
+		// private		: self
 		
-		/**
-		 * Comment: JavaDoc
-		 * 
-		 * Prints an integer and then terminate the line.  This method behaves as
-		 * though it invokes <code>{@link #print(int)}</code> and then
-		 * <code>{@link #println()}</code>.
-		 *
-		 * @param x  The <code>int</code> to be printed.
-		 */
+		// final : do not modify(v, method, class)
 		
-		// Error
-		// float f_n = 2.2;
-		float f_n = 2.2f;
-		double d_n = 2.2;
-		byte b_n = 100;
-		System.out.println(b_n);
-		
-		
-
-			
 	}
 
 }
